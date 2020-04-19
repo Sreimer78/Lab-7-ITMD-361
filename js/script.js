@@ -1,9 +1,9 @@
 function init(){
   var input = document.getElementById('entryinput');
-  var output = document.getElementById('textoutput');
+  var results = document.getElementById('textoutput');
   var button = document.GetElementById('entrybutton');
   button.addEventListener('click', function(){
-	output.innerHTML = input.value;
+	results.innerHTML = input.value;
 	alert("Sean Reimer: " + input.value);
   });
 }
