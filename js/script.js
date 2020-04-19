@@ -1,10 +1,8 @@
-function init()
-{
+function init(){
   var input = document.getElementById('entryinput');
   var output = document.getElementById('textoutput');
   var button = document.GetElementById('entrybutton');
-  button.addEventListener('click', function()
-  {
+  button.addEventListener('click', function(){
 	output.innerHTML = input.value;
 	alert("Sean Reimer: " + input.value);
   });
